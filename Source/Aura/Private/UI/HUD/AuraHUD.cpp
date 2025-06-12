@@ -33,6 +33,9 @@ void AAuraHUD::InitOverlay(APlayerController* InPlayerController, APlayerState* 
 	// Assign Overlay Widget Controller to Overlay Widget
 	OverlayWidget->SetWidgetController(WidgetController);
 
+	// Broadcasting Initial Values
+	WidgetController->BroadcastInitialValues();
+
 	// Add Overlay Widget to Viewport
 	Widget->AddToViewport();
 }
