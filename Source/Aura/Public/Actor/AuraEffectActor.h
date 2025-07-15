@@ -71,4 +71,7 @@ protected:
 
 	/** Tracks active infinite gameplay effects applied via overlap */
 	TMap<FActiveGameplayEffectHandle, UAbilitySystemComponent*> ActiveEffectHandles;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Applied Effects")
+	float ActorLevel = 1.f;
 };
