@@ -30,6 +30,5 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Character")
 	TObjectPtr<UCameraComponent> Camera;
 
-private:
-	void InitAbilityActorInfo();
+	virtual void InitAbilityActorInfo() override;
 };
