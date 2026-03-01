@@ -2,7 +2,6 @@
 
 
 #include "UI/WidgetController/AttributeMenuWidgetController.h"
-#include "AttributeMenuWidgetController.h"
 
 void UAttributeMenuWidgetController::BindCallbacksToDependencies()
 {
